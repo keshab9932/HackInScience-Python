@@ -1,0 +1,7 @@
+def fahrenheit_to_celsius(temp):
+    cel = (5.0/9) * (temp - 32);
+    return cel
+
+def celsius_to_fahrenheit(temp):
+    fah = (temp * 9/5) + 32
+    return fah
