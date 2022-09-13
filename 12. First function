@@ -1,0 +1,9 @@
+# Type your code here:
+import math
+
+def circle_perimeter(radius):
+    peri = 2 * math.pi * radius
+    return peri
+
+radius = circle_perimeter(10)
+print(radius)
