@@ -1,0 +1,6 @@
+num = list(range(1,1000))
+total2 = 0
+for i in num :
+    if i % 3 == 0 or i % 5 == 0 :
+        total2 += i
+print(total2)
